@@ -60,7 +60,7 @@ export function Navigation() {
         >
           <Link href="/" className="group flex items-center gap-2">
             <span className="font-display text-2xl font-light tracking-[0.12em] text-text-primary">
-              FOLIO
+              LIGHT
             </span>
             <span className="w-1.5 h-1.5 rounded-full bg-gold opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
           </Link>

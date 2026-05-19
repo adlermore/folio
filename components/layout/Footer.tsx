@@ -23,7 +23,7 @@ export function Footer() {
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-16">
         <div>
-          <span className="font-display text-3xl font-light tracking-[0.12em] text-text-primary block mb-4">FOLIO</span>
+          <span className="font-display text-3xl font-light tracking-[0.12em] text-text-primary block mb-4">LIGHT</span>
           <p className="text-text-muted text-sm leading-relaxed max-w-xs">{t('description')}</p>
         </div>
         <div>
@@ -56,7 +56,7 @@ export function Footer() {
       </div>
 
       <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4 pt-8 border-t border-border">
-        <p className="label-sm text-text-dim">&copy; {year} FOLIO Studio. {t('rights')}</p>
+        <p className="label-sm text-text-dim">&copy; {year} LIGHT DESIGN Studio. {t('rights')}</p>
         <p className="label-sm text-text-dim">{t('tagline')}</p>
       </div>
     </footer>

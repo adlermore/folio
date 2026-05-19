@@ -12,7 +12,7 @@ const SplineBackground = dynamic(
   { ssr: false }
 )
 
-const FOLIO_LETTERS = ['F', 'O', 'L', 'I', 'O']
+const LIGHT_LETTERS = ['L', 'I', 'G', 'H', 'T']
 
 export function Hero() {
   const t      = useTranslations('hero')
@@ -49,8 +49,8 @@ export function Hero() {
           <span className="label-sm text-gold">{t('label')}</span>
         </motion.div>
 
-        <h1 className="heading-display text-text-primary mb-0 overflow-hidden" aria-label="FOLIO">
-          {FOLIO_LETTERS.map((letter, i) => (
+        <h1 className="heading-display text-text-primary mb-0 overflow-hidden" aria-label="LIGHT">
+          {LIGHT_LETTERS.map((letter, i) => (
             <motion.span key={i} className="inline-block" aria-hidden="true"
               initial={{ y: '105%', opacity: 0 }}
               animate={{ y: '0%', opacity: 1 }}

@@ -25,18 +25,18 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: 'FOLIO — Design & Print Studio',
-    template: '%s | FOLIO Studio',
+    default: 'LIGHT — Design & Print Studio',
+    template: '%s | LIGHT DESIGN Studio',
   },
   description:
-    'FOLIO is a Design & Print Studio crafting brand identities, editorial systems, and print productions for brands that demand precision.',
+    'LIGHT DESIGN Studio crafts brand identities, editorial systems, and print productions for brands that demand precision.',
   keywords: ['design studio', 'print studio', 'brand identity', 'editorial design', 'packaging design', 'London'],
-  authors: [{ name: 'FOLIO Studio' }],
+  authors: [{ name: 'LIGHT DESIGN Studio' }],
   openGraph: {
     type: 'website',
-    title: 'FOLIO — Design & Print Studio',
+    title: 'LIGHT — Design & Print Studio',
     description: 'Crafting visual systems for brands that demand precision.',
-    siteName: 'FOLIO Studio',
+    siteName: 'LIGHT DESIGN Studio',
   },
 }
 
